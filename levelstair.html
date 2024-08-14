@@ -1,0 +1,463 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#181407] dark group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#30270D] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#FFFFFF]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor"></path>
+              </svg>
+            </div>
+            <h2 class="text-[#FFFFFF] text-lg font-bold leading-tight tracking-[-0.015em]">CodeSprint</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="#">News</a>
+              <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="#">Events</a>
+              <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="#">Resources</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#30270D] text-[#FFFFFF] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#FFFFFF]" data-icon="Gear" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#30270D] text-[#FFFFFF] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#FFFFFF]" data-icon="Bell" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://cdn.usegalileo.ai/stability/da05d252-526f-4f6c-85f3-a54f92f966eb.png");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="flex flex-col gap-6 px-4 py-10 @[480px]:gap-8 @[864px]:flex-row">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[400px] @[864px]:w-full"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/a1405ab3-7395-451a-b8eb-742b0e92d443.png");'
+                ></div>
+                <div class="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-[#FFFFFF] text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      The ultimate startup battle
+                    </h1>
+                    <h2 class="text-[#FFFFFF] text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Join now and compete with the best game dev teams
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#FAC638] text-[#AB2217] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Sign Up</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#FFFFFF] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Amazing prizes</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#4C3D15] bg-[#241E0A] p-4 items-center">
+                <div class="text-[#FFFFFF]" data-icon="Trophy" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232,64H208V56a16,16,0,0,0-16-16H64A16,16,0,0,0,48,56v8H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8Zm144-8.9c0,35.52-28.49,64.64-63.51,64.9H128a64,64,0,0,1-64-64V56H192ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#FFFFFF] text-base font-bold leading-tight">$50,000</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#4C3D15] bg-[#241E0A] p-4 items-center">
+                <div class="text-[#FFFFFF]" data-icon="Trophy" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232,64H208V56a16,16,0,0,0-16-16H64A16,16,0,0,0,48,56v8H24A16,16,0,0,0,8,80V96a40,40,0,0,0,40,40h3.65A80.13,80.13,0,0,0,120,191.61V216H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16H136V191.58c31.94-3.23,58.44-25.64,68.08-55.58H208a40,40,0,0,0,40-40V80A16,16,0,0,0,232,64ZM48,120A24,24,0,0,1,24,96V80H48v32q0,4,.39,8Zm144-8.9c0,35.52-28.49,64.64-63.51,64.9H128a64,64,0,0,1-64-64V56H192ZM232,96a24,24,0,0,1-24,24h-.5a81.81,81.81,0,0,0,.5-8.9V80h24Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#FFFFFF] text-base font-bold leading-tight">$20,000</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#4C3D15] bg-[#241E0A] p-4 items-center">
+                <div class="text-[#FFFFFF]" data-icon="Star" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#FFFFFF] text-base font-bold leading-tight">$10,000</h2>
+              </div>
+            </div>
+            <h2 class="text-[#FFFFFF] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Three Phases of Success</h2>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-[#FFFFFF] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]"
+                >
+                  Unlock your team's potential
+                </h1>
+                <p class="text-[#FFFFFF] text-base font-normal leading-normal max-w-[720px]">Participate in challenges, learn new skills, and connect with industry leaders.</p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-0">
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#4C3D15] bg-[#241E0A] p-4 flex-col">
+                  <div class="text-[#FFFFFF]" data-icon="Lightbulb" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M176,232a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,232Zm40-128a87.55,87.55,0,0,1-33.64,69.21A16.24,16.24,0,0,0,176,186v6a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16v-6a16,16,0,0,0-6.23-12.66A87.59,87.59,0,0,1,40,104.49C39.74,56.83,78.26,17.14,125.88,16A88,88,0,0,1,216,104Zm-16,0a72,72,0,0,0-73.74-72c-39,.92-70.47,33.39-70.26,72.39a71.65,71.65,0,0,0,27.64,56.3A32,32,0,0,1,96,186v6h64v-6a32.15,32.15,0,0,1,12.47-25.35A71.65,71.65,0,0,0,200,104Zm-16.11-9.34a57.6,57.6,0,0,0-46.56-46.55,8,8,0,0,0-2.66,15.78c16.57,2.79,30.63,16.85,33.44,33.45A8,8,0,0,0,176,104a9,9,0,0,0,1.35-.11A8,8,0,0,0,183.89,94.66Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <h2 class="text-[#FFFFFF] text-base font-bold leading-tight">Phase 1 - Ideation</h2>
+                    <p class="text-[#D3B45F] text-sm font-normal leading-normal">Brainstorm and plan your project.</p>
+                  </div>
+                </div>
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#4C3D15] bg-[#241E0A] p-4 flex-col">
+                  <div class="text-[#FFFFFF]" data-icon="FileCode" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M181.66,146.34a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32-11.32L164.69,152l-18.35-18.34a8,8,0,0,1,11.32-11.32Zm-72-24a8,8,0,0,0-11.32,0l-24,24a8,8,0,0,0,0,11.32l24,24a8,8,0,0,0,11.32-11.32L91.31,152l18.35-18.34A8,8,0,0,0,109.66,122.34ZM216,88V216a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V40A16,16,0,0,1,56,24h96a8,8,0,0,1,5.66,2.34l56,56A8,8,0,0,1,216,88Zm-56-8h28.69L160,51.31Zm40,136V96H152a8,8,0,0,1-8-8V40H56V216H200Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <h2 class="text-[#FFFFFF] text-base font-bold leading-tight">Phase 2 - Development</h2>
+                    <p class="text-[#D3B45F] text-sm font-normal leading-normal">Create your game with mentorship.</p>
+                  </div>
+                </div>
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#4C3D15] bg-[#241E0A] p-4 flex-col">
+                  <div class="text-[#FFFFFF]" data-icon="Rocket" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M152,224a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16h32A8,8,0,0,1,152,224ZM128,112a12,12,0,1,0-12-12A12,12,0,0,0,128,112Zm95.62,43.83-12.36,55.63a16,16,0,0,1-25.51,9.11L158.51,200h-61L70.25,220.57a16,16,0,0,1-25.51-9.11L32.38,155.83a16.09,16.09,0,0,1,3.32-13.71l28.56-34.26a123.07,123.07,0,0,1,8.57-36.67c12.9-32.34,36-52.63,45.37-59.85a16,16,0,0,1,19.6,0c9.34,7.22,32.47,27.51,45.37,59.85a123.07,123.07,0,0,1,8.57,36.67l28.56,34.26A16.09,16.09,0,0,1,223.62,155.83ZM99.43,184h57.14c21.12-37.54,25.07-73.48,11.74-106.88C156.55,47.64,134.49,29,128,24c-6.51,5-28.57,23.64-40.33,53.12C74.36,110.52,78.31,146.46,99.43,184Zm-15,5.85Q68.28,160.5,64.83,132.16L48,152.36,60.36,208l.18-.13ZM208,152.36l-16.83-20.2q-3.42,28.28-19.56,57.69l23.85,18,.18.13Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <h2 class="text-[#FFFFFF] text-base font-bold leading-tight">Phase 3 - Launch</h2>
+                    <p class="text-[#D3B45F] text-sm font-normal leading-normal">Present your game to the audience.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#FFFFFF] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">The Legacy of CodeSprint</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5dec7744-1cb8-48fa-8831-677e2cda3980.png");'
+                ></div>
+                <p class="text-[#FFFFFF] text-base font-medium leading-normal">CodeSprint 2020</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/f83f9bbc-1f02-47cb-8103-cada065a59f6.png");'
+                ></div>
+                <p class="text-[#FFFFFF] text-base font-medium leading-normal">CodeSprint 2019</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/00423d46-d90d-4a97-aa6a-061adfc0356e.png");'
+                ></div>
+                <p class="text-[#FFFFFF] text-base font-medium leading-normal">CodeSprint 2018</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/26daae5f-cec5-4e68-b7bf-f55cbbce3984.png");'
+                ></div>
+                <p class="text-[#FFFFFF] text-base font-medium leading-normal">CodeSprint 2017</p>
+              </div>
+            </div>
+            <h2 class="text-[#FFFFFF] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Partners</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/3da4f211-51f6-4166-ae60-38ec298eeb59.png");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/4d22439c-d195-4ce7-9f17-66da43914c6b.png");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/65f24bd3-b824-4a8d-a878-a2f1e8a7da10.png");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/9654610b-0567-47a4-92c6-41b4bb85fa84.png");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/83da85b7-43ce-41f9-b1c0-6240a8628853.png");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/3da4f211-51f6-4166-ae60-38ec298eeb59.png");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-[#FFFFFF] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Upcoming Events</h2>
+            <div class="flex flex-wrap items-center justify-center gap-6 p-4">
+              <div class="flex min-w-72 max-w-[336px] flex-1 flex-col gap-0.5">
+                <div class="flex items-center p-1 justify-between">
+                  <button>
+                    <div class="text-[#FFFFFF] flex size-10 items-center justify-center" data-icon="CaretLeft" data-size="18px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
+                      </svg>
+                    </div>
+                  </button>
+                  <p class="text-[#FFFFFF] text-base font-bold leading-tight flex-1 text-center">May 2023</p>
+                  <button>
+                    <div class="text-[#FFFFFF] flex size-10 items-center justify-center" data-icon="CaretRight" data-size="18px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+                <div class="grid grid-cols-7">
+                  <p class="text-[#FFFFFF] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+                  <p class="text-[#FFFFFF] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">M</p>
+                  <p class="text-[#FFFFFF] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+                  <p class="text-[#FFFFFF] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">W</p>
+                  <p class="text-[#FFFFFF] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">T</p>
+                  <p class="text-[#FFFFFF] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">F</p>
+                  <p class="text-[#FFFFFF] text-[13px] font-bold leading-normal tracking-[0.015em] flex h-12 w-full items-center justify-center pb-0.5">S</p>
+                  <button class="h-12 w-full text-[#FFFFFF] col-start-4 text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">1</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">2</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">3</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">4</div>
+                  </button>
+                  <button class="h-12 w-full text-[#AB2217] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full bg-[#FAC638]">5</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">6</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">7</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">8</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">9</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">10</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">11</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">12</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">13</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">14</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">15</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">16</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">17</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">18</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">19</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">20</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">21</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">22</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">23</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">24</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">25</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">26</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">27</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">28</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">29</div>
+                  </button>
+                  <button class="h-12 w-full text-[#FFFFFF] text-sm font-medium leading-normal">
+                    <div class="flex size-full items-center justify-center rounded-full">30</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#FFFFFF] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Community Resources</h2>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-[#241E0A] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#FFFFFF] text-base font-bold leading-tight">Explore the Celestial Collection</p>
+                  <p class="text-[#D3B45F] text-sm font-normal leading-normal">Exclusive in-game assets for members</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/bfaf819b-d8b7-400e-9a00-d1759364d899.png");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-[#241E0A] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#FFFFFF] text-base font-bold leading-tight">Guide to the battle of Esportia</p>
+                  <p class="text-[#D3B45F] text-sm font-normal leading-normal">Strategies and tips for competitive play</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/722b2adb-cf1c-4752-9e49-c3ee20cafb13.png");'
+                ></div>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="flex items-stretch justify-between gap-4 rounded-xl bg-[#241E0A] p-4 shadow-[0_0_4px_rgba(0,0,0,0.1)]">
+                <div class="flex flex-col gap-1 flex-[2_2_0px]">
+                  <p class="text-[#FFFFFF] text-base font-bold leading-tight">Journey into Excellence</p>
+                  <p class="text-[#D3B45F] text-sm font-normal leading-normal">Interviews with top developers</p>
+                </div>
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/8f5ed6e0-2818-4f7d-8eb7-de48bde1da30.png");'
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#D3B45F] text-base font-normal leading-normal min-w-40" href="#">About</a>
+                <a class="text-[#D3B45F] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#D3B45F] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+              </div>
+              <div class="flex flex-wrap justify-center gap-4">
+                <a href="#">
+                  <div class="text-[#D3B45F]" data-icon="TwitterLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#D3B45F]" data-icon="FacebookLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#D3B45F]" data-icon="YoutubeLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M164.44,121.34l-48-32A8,8,0,0,0,104,96v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,145.05V111l25.58,17ZM234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-15.49,113a8,8,0,0,1-4.77,5.49c-31.65,12.22-85.48,12-86,12H128c-.54,0-54.33.2-86-12a8,8,0,0,1-4.77-5.49C34.8,173.39,32,156.57,32,128s2.8-45.39,5.16-54.47A8,8,0,0,1,41.93,68c30.52-11.79,81.66-12,85.85-12h.27c.54,0,54.38-.18,86,12a8,8,0,0,1,4.77,5.49C221.2,82.61,224,99.43,224,128S221.2,173.39,218.84,182.47Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#D3B45F]" data-icon="TwitchLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M208,32H48A16,16,0,0,0,32,48V192a16,16,0,0,0,16,16H64v32a8,8,0,0,0,13.12,6.15L122.9,208h42.2a16,16,0,0,0,10.25-3.71l42.89-35.75A15.93,15.93,0,0,0,224,156.25V48A16,16,0,0,0,208,32Zm0,124.25L165.1,192H122.9a16,16,0,0,0-10.25,3.71L80,222.92V200a8,8,0,0,0-8-8H48V48H208ZM160,136V88a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Zm-48,0V88a8,8,0,0,1,16,0v48a8,8,0,0,1-16,0Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <p class="text-[#D3B45F] text-base font-normal leading-normal">© 2023 CodeSprint. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
