@@ -18,7 +18,7 @@
 
     body {
       font-family: 'DePixel', "Plus Jakarta Sans", "Noto Sans", sans-serif;
-      cursor: url('cursor.cur'), auto;
+      cursor: url('../images/cursor.cur'), auto;
     }
 
     #active {
@@ -40,15 +40,16 @@
 
         <div class="flex flex-1 justify-end gap-8 ">
           <div class="flex items-center gap-9">
-            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]" href="#">Home</a>
             <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
-              href="./client/AboutUs.html">About Us</a>
+              href="../index.html">Home</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="../client/AboutUs.html">About Us</a>
             <a id="active" class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
-              href="./client/events.html">Events</a>
+              href="../client/events.html">Events</a>
             <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
-              href="./client/projects.html">Projects</a>
+              href="../client/projects.html">Projects</a>
             <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
-              href="./client/contact.html">Contact Us</a>
+              href="../client/contact.html">Contact Us</a>
           </div>
         </div>
       </header>
@@ -59,39 +60,65 @@
             class="text-[#FFFFFF] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mb-9">
             Events</h1>
 
-          <!--upcoming section and past events section-->
+          <!--upcoming events section-->
           <div class="flex flex-col gap-10">
             <div class="flex flex-col gap-4">
-              <h2 class="text-[#D3B45F] text-[24px] font-bold leading-tight">Upcoming Events</h2>
+              <h2 class="text-[#D3B45F] text-[24px] font-bold leading-tight mb-4">Upcoming Events</h2>
               <div class="flex flex-col gap-4">
-                <div class="flex flex-col gap-2">
-                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 3</h3>
-                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
-                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
+
+                <div class="flex flex-row gap-5 bg-[#303030] p-4 w-[45rem] rounded-xl">
+                  <div>
+                    <img src="../images/jam logo.jpeg" alt="Level Zero"
+                      class="w-full h-[16rem] object-cover rounded-xl aspect-square">
+                  </div>
+                  <div class="flex flex-col gap-4">
+                    <div class="mb-3">
+                      <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3">Level Zero</h3>
+                      <p class="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3">Date: 04/11/2024</p>
+                      <p class="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3">Time: 00 : 00 : 00 IST</p>
+                      <p class="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1">A beginner friendly game jam
+                        for aspiring game developers to get started</p>
+                    </div>
+                    <a href="https://itch.io/jam/level-zero"
+                      class="text-[#D3B45F] text-[14px] font-normal leading-normal">
+                      <button class="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl">
+                        Visit Page >>
+                      </button>
+                    </a>
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>
 
+          <!--past events section-->
           <div class="flex flex-col gap-10">
             <div class="flex flex-col gap-4">
-              <h2 class="text-[#D3B45F] text-[24px] font-bold leading-tight">Past Events</h2>
+              <h2 class="text-[#D3B45F] text-[24px] font-bold leading-tight mb-4">Past Events</h2>
               <div class="flex flex-col gap-4">
-                <div class="flex flex-col gap-2">
-                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 1</h3>
-                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
-                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
+
+                <div class="flex flex-row gap-5 bg-[#303030] p-4 w-[45rem] rounded-xl">
+                  <div>
+                    <img src="../images/jam logo.jpeg" alt="Level Zero"
+                      class="w-full h-[16rem] object-cover rounded-xl aspect-square">
+                  </div>
+                  <div class="flex flex-col gap-4">
+                    <div class="mb-3">
+                      <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3">Level Zero Awareness Session</h3>
+                      <p class="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3">Date: 17/10/2024</p>
+                      <p class="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3">Time: 15 : 00 IST</p>
+                      <p class="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1">Session included how game jam works, how to compete, and rewards to be earned</p>
+                    </div>
+                    <a href="https://youtu.be/e2140VX9fi8"
+                      class="text-[#D3B45F] text-[14px] font-normal leading-normal">
+                      <button class="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl">
+                        Visit Page >>
+                      </button>
+                    </a>
+                  </div>
                 </div>
-                <div class="flex flex-col gap-2">
-                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 2</h3>
-                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
-                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
-                </div>
-                <div class="flex flex-col gap-2">
-                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 3</h3>
-                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
-                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
-                </div>
+
               </div>
             </div>
           </div>

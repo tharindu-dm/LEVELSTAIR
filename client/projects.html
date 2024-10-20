@@ -4,59 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | LEVELSTAIR</title>
+  <title>About Us | LEVELSTAIR</title>
   <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-  
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style>
+    @font-face {
+      font-family: 'DePixel';
+      src: url('../fonts/DePixelHalbfett.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: 'DePixel', "Plus Jakarta Sans", "Noto Sans", sans-serif;
+      cursor: url('../images/cursor.cur'), auto;
+    }
+
+    #active {
+      color: #ffd500;
+      border-bottom: #ffd500 0.3rem solid;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="relative flex size-full min-h-screen flex-col bg-[#181407] dark group/design-root overflow-x-hidden"
-    style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+  <div class="relative flex size-full min-h-screen flex-col bg-[#090909] dark group/design-root overflow-x-hidden">
     <div class="layout-container flex h-full grow flex-col">
 
       <header
         class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#30270D] px-10 py-3">
-        <div class="flex items-center gap-4 text-[#FFFFFF]">
-            
-          <h2 class="text-[#FFFFFF] text-lg font-bold leading-tight tracking-[-0.015em]">LEVELSTAIR</h2>
+        <div class="flex items-center gap-4 text-4xl  text-[#FFFFFF]">
+          <h2 class="text-[#FFFFFF] text-lgfont-bold leading-tight tracking-[-0.015em]">LEVELSTAIR</h2>
         </div>
-        <div class="flex flex-1 justify-end gap-8">
+
+        <div class="flex flex-1 justify-end gap-8 ">
           <div class="flex items-center gap-9">
-            <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="../index.html">Home</a>
-            <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="./AboutUs.html">About Us</a>
-            <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="./events.html">Events</a>
-            <a class="text-[#FFFFFF] text-sm font-medium leading-normal" href="#">Projects</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="../index.html">Home</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="../client/AboutUs.html">About Us</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="../client/events.html">Events</a>
+            <a id="active" class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="../client/projects.html">Projects</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="../client/contact.html">Contact Us</a>
           </div>
         </div>
       </header>
 
-      <div class="px-40 flex flex-1 justify-center py-5">
-        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+      <main class="min-h-screen">
 
-          <div class="bg-[#241E0A] p-4 rounded-lg border border-[#4C3D15]">
-            <h3 class="text-[#FFFFFF] font-bold mb-4 text-3xl">Projects</h3>
-            <p class="text-[#FFFFFF]">No Project Records For Now</p>
-        </div>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
 
-          <footer class="flex justify-center">
-            <div class="flex max-w-[960px] flex-1 flex-col">
-              <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
-                <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
-                  <a class="text-[#D3B45F] text-base font-normal leading-normal min-w-40" href="./AboutUs.html">About</a>
-                  <a class="text-[#D3B45F] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
-                  <a class="text-[#D3B45F] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
-                </div>
-                <div class="flex flex-wrap justify-center gap-4">
-                </div>
-                <p class="text-[#D3B45F] text-base font-normal leading-normal">© 2024 LEVELSTAIR. All rights reserved.
-                </p>
-              </footer>
+            <div class="bg-[#241E0A] p-4 rounded-lg border border-[#4C3D15]">
+              <h3 class="text-[#FFFFFF] font-bold mb-4 text-3xl">Projects</h3>
+              <p class="text-[#FFFFFF]">No Project Records For Now</p>
             </div>
+          </div>
+        </div>
+      </main>
+
+      <hr class="border-4 border-[#D3B45F]" />
+      <footer class="flex justify-center">
+        <div class="flex max-w-[960px] flex-1 flex-col">
+          <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+            <p class="text-[#D3B45F] text-base font-normal leading-normal">© 2024 LEVELSTAIR. All rights reserved.
+            </p>
           </footer>
         </div>
-      </div>
+      </footer>
+
+    </div>
+  </div>
 </body>
 
 </html>
