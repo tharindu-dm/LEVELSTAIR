@@ -7,144 +7,109 @@
   <title>Events | LEVELSTAIR</title>
   <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <style>
-    body,
-    html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;
-      background-color: #181407;
-      color: #FFFFFF;
+    @font-face {
+      font-family: 'DePixel';
+      src: url('../fonts/DePixelHalbfett.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
     }
 
-    .container {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
+    body {
+      font-family: 'DePixel', "Plus Jakarta Sans", "Noto Sans", sans-serif;
+      cursor: url('cursor.cur'), auto;
     }
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2.5rem;
-      border-bottom: 1px solid #30270D;
-    }
-
-    .logo {
-      font-size: 1.25rem;
-      font-weight: bold;
-    }
-
-    nav a {
-      color: #FFFFFF;
-      text-decoration: none;
-      margin-left: 2rem;
-    }
-
-    main {
-      flex: 1;
-      padding: 2rem;
-    }
-
-    .event-card {
-      background-color: #241E0A;
-      border: 1px solid #4C3D15;
-      border-radius: 8px;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      margin-bottom: 1rem;
-    }
-
-    .event-image {
-      width: 128px;
-      height: 128px;
-      border-radius: 8px;
-      margin-right: 1rem;
-    }
-
-    .event-details {
-      flex: 1;
-    }
-
-    .event-title {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-    }
-
-    .event-description {
-      color: #D3B45F;
-      margin-bottom: 0.5rem;
-    }
-
-    .event-date {
-      color: #8B7D4A;
-      font-size: 0.875rem;
-    }
-
-    .join-button {
-      background-color: #ff2b50;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      padding: 0.5rem 1rem;
-      cursor: pointer;
-    }
-
-    footer {
-      background-color: #241E0A;
-      color: #D3B45F;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    footer a {
-      color: #D3B45F;
-      text-decoration: none;
-      margin: 0 1rem;
+    #active {
+      color: #ffd500;
+      border-bottom: #ffd500 0.3rem solid;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <header>
+  <div class="relative flex size-full min-h-screen flex-col bg-[#090909] dark group/design-root overflow-x-hidden">
+    <div class="layout-container flex h-full grow flex-col">
 
-      <div class="logo">LEVELSTAIR</div>
-      <nav>
-        <a href="../index.html">Home</a>
-        <a href="./AboutUs.html">About Us</a>
-        <a href="#">Events</a>
-        <a href="./projects.html">Projects</a>
-      </nav>
-    </header>
-
-    <main>
-      <h1>Events</h1>
-      <div class="event-card">
-        <img src="../images/jam logo.jpeg" alt="Jam logo" class="event-image">
-        <div class="event-details">
-          <h2 class="event-title">LEVEL ZERO #1</h2>
-          <p class="event-description">Beginner friendly game jam</p>
-          <p class="event-date">Nov 04, 2024 - Nov 17, 2024</p>
+      <header
+        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#30270D] px-10 py-3">
+        <div class="flex items-center gap-4 text-4xl  text-[#FFFFFF]">
+          <h2 class="text-[#FFFFFF] text-lgfont-bold leading-tight tracking-[-0.015em]">LEVELSTAIR</h2>
         </div>
-        <button id="lvlzero1" class="join-button">Join at itch.io</button>
-      </div>
-    </main>
 
-    <footer>
-      <a href="./AboutUs.html">About</a>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms of Service</a>
-      <p>© 2024 LEVELSTAIR. All rights reserved.</p>
-    </footer>
+        <div class="flex flex-1 justify-end gap-8 ">
+          <div class="flex items-center gap-9">
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]" href="#">Home</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="./client/AboutUs.html">About Us</a>
+            <a id="active" class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="./client/events.html">Events</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="./client/projects.html">Projects</a>
+            <a class="text-[#D3B45F] text-sm font-medium leading-normal hover:text-[#FFFFFF]"
+              href="./client/contact.html">Contact Us</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="flex flex-col gap-10 px-4 py-10 @container items-center">
+          <h1
+            class="text-[#FFFFFF] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mb-9">
+            Events</h1>
+
+          <!--upcoming section and past events section-->
+          <div class="flex flex-col gap-10">
+            <div class="flex flex-col gap-4">
+              <h2 class="text-[#D3B45F] text-[24px] font-bold leading-tight">Upcoming Events</h2>
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 3</h3>
+                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
+                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-10">
+            <div class="flex flex-col gap-4">
+              <h2 class="text-[#D3B45F] text-[24px] font-bold leading-tight">Past Events</h2>
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 1</h3>
+                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
+                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 2</h3>
+                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
+                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <h3 class="text-[#FFFFFF] text-[18px] font-bold leading-tight">Event 3</h3>
+                  <p class="text-[#D3B45F] text-[14px] font-normal leading-normal">Date: 01/01/2021</p>
+                  <a href="#" class="text-[#D3B45F] text-[14px] font-normal leading-normal">Visit Page</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <hr class="border-4 border-[#D3B45F]" />
+      <footer class="flex justify-center">
+        <div class="flex max-w-[960px] flex-1 flex-col">
+          <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+            <p class="text-[#D3B45F] text-base font-normal leading-normal">© 2024 LEVELSTAIR. All rights reserved.
+            </p>
+          </footer>
+        </div>
+      </footer>
+
+    </div>
   </div>
-  <script src="./js/events.js"></script>
 </body>
 
 </html>
