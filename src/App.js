@@ -12,7 +12,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   return (
-    <Router basename="/LEVELSTAIR"> {/* Added basename here */}
+    <Router>
       <div className="app">
         <Navbar />
         <main className="main-content">
