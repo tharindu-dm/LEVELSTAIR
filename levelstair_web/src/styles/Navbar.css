@@ -1,0 +1,85 @@
+.navbar {
+  background: #1a1a1a;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: space-between; /* Change to space-between for better spacing */
+  align-items: center;
+  gap: 1rem;
+  width: 100%; /* Ensure it takes full width */
+}
+
+.nav-logo {
+  height: 4rem;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 2px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    margin-left: auto; /* Push the hamburger to the right */
+  }
+  .navbar-brand {
+    justify-content: space-between; /* Ensure space between logo and hamburger */
+    padding: 0 1rem; /* Add padding to the sides */
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #1a1a1a;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+}
