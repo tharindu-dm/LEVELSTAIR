@@ -23,7 +23,42 @@ const Events = () => {
               <h2 className="text-[#D3B45F] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
                 Ongoing Events
               </h2>
-              <div className="flex flex-col gap-4"></div>
+              <div className="flex flex-col gap-4 items-center">
+                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
+                  <div>
+                    <img
+                      src="https://yt3.ggpht.com/937XZfN1NUumBzySp82a-l9Dv0Pm9kDkZHipaqnrZTRgfxznte8eKlNapmvU9LzzkNTQ58XLfoSYKqw=s640-c-fcrop64=1,00000000ffffffff-rw-nd-v1"
+                      alt="Level Zero 2"
+                      className="w-full h-[16rem] object-cover rounded-xl sm:aspect-square"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <div className="mb-3">
+                      <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
+                        Level Zero 2 Game Jam
+                      </h3>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Date: 11/1/2025
+                      </p>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Time: 00 : 00 GMT+5.30
+                      </p>
+                      <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
+                        48 Hour Game Jam for beginners to get started with game
+                        development
+                      </p>
+                    </div>
+                    <a
+                      href="https://itch.io/jam/level-zero-2"
+                      className="text-[#D3B45F] text-[14px] font-normal leading-normal"
+                    >
+                      <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
+                        Jam Page
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -78,7 +113,7 @@ const Events = () => {
                         Date: 17/10/2024
                       </p>
                       <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
-                        Time: 15 : 00 IST
+                        Time: 15 : 00 GMT+5.30
                       </p>
                       <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
                         Session included how game jam works, how to compete, and
@@ -125,7 +160,7 @@ const Events = () => {
                       className="text-[#D3B45F] text-[14px] font-normal leading-normal"
                     >
                       <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
-                        Visit Page
+                        Jam Page
                       </button>
                     </a>
                   </div>
