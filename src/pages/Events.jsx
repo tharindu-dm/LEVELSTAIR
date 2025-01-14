@@ -3,7 +3,7 @@ import React from "react";
 const Events = () => {
   return (
     <div>
-      <main>
+      <main className="min-h-screen">
         <div className="flex flex-col gap-10 px-4 py-10 container mx-auto">
           <h1 className="text-[#FFFFFF] tracking-light self-center text-[32px] font-bold leading-tight max-w-[720px] mb-9 text-center sm:text-4xl sm:font-black sm:leading-tight sm:tracking-[-0.033em]">
             Events
@@ -24,40 +24,6 @@ const Events = () => {
                 Ongoing Events
               </h2>
               <div className="flex flex-col gap-4 items-center">
-                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
-                  <div>
-                    <img
-                      src="https://yt3.ggpht.com/937XZfN1NUumBzySp82a-l9Dv0Pm9kDkZHipaqnrZTRgfxznte8eKlNapmvU9LzzkNTQ58XLfoSYKqw=s640-c-fcrop64=1,00000000ffffffff-rw-nd-v1"
-                      alt="Level Zero 2"
-                      className="w-full h-[16rem] object-cover rounded-xl sm:aspect-square"
-                    />
-                  </div>
-                  <div className="flex flex-col gap-4">
-                    <div className="mb-3">
-                      <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
-                        Level Zero 2 Game Jam
-                      </h3>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
-                        Date: 11/1/2025
-                      </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
-                        Time: 00 : 00 GMT+5.30
-                      </p>
-                      <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
-                        48 Hour Game Jam for beginners to get started with game
-                        development
-                      </p>
-                    </div>
-                    <a
-                      href="https://itch.io/jam/level-zero-2"
-                      className="text-[#D3B45F] text-[14px] font-normal leading-normal"
-                    >
-                      <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
-                        Jam Page
-                      </button>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -126,41 +92,6 @@ const Events = () => {
                     >
                       <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
                         Visit Page
-                      </button>
-                    </a>
-                  </div>
-                </div>
-                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
-                  <div>
-                    <img
-                      src="https://yt3.ggpht.com/T0d-oZNztpsbN_01xRCo088VlFimx3jyz4eHiionb78Tj6a-7W7QSOOSJkSLQy9LQZIuaQ44_P5j=s640-c-fcrop64=1,00000000ffffffff-rw-nd-v1"
-                      alt="Level Zero"
-                      className="w-full h-[16rem] object-cover rounded-xl sm:aspect-square"
-                    />
-                  </div>
-
-                  <div className="flex flex-col gap-4">
-                    <div className="mb-3">
-                      <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
-                        Level Zero
-                      </h3>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
-                        Date: 04/11/2024
-                      </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
-                        Time: 00 : 00 : 00 IST
-                      </p>
-                      <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
-                        A beginner friendly game jam for aspiring game
-                        developers to get started
-                      </p>
-                    </div>
-                    <a
-                      href="https://itch.io/jam/level-zero"
-                      className="text-[#D3B45F] text-[14px] font-normal leading-normal"
-                    >
-                      <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
-                        Jam Page
                       </button>
                     </a>
                   </div>
