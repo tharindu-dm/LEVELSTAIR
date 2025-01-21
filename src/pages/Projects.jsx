@@ -13,13 +13,13 @@ const Projects = () => {
           <div className="flex flex-col gap-10 w-full">
             <div className="flex flex-col gap-4 items-center">
               <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
-                <div>
+                <div className="relative w-full sm:w-[18rem] sm:h-[18rem] aspect-square overflow-hidden rounded-xl">
                   <img
                     src="https://img.itch.zone/aW1nLzE3ODY2MDM5LmpwZWc=/original/HOf0OJ.jpeg"
-                    className="max-w-screen-2xl h-[18rem] object-cover rounded-xl sm:aspect-square"
+                    className="absolute top-0 left-0 w-full h-full object-cover"
                   />
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 flex-1">
                   <div className="mb-3">
                     <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                       Level Zero Game Jam
@@ -45,13 +45,13 @@ const Projects = () => {
             </div>
             <div className="flex flex-col gap-4 items-center">
               <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
-                <div>
+                <div className="relative w-full sm:w-[18rem] sm:h-[18rem] aspect-square overflow-hidden rounded-xl">
                   <img
                     src="https://m.media-amazon.com/images/M/MV5BNjQzMDlkNDctYmE3Yi00ZWFiLTlmOWYtMjI4MzQ4Y2JhZjY2XkEyXkFqcGc@._V1_.jpg"
-                    className="max-w-screen-2xl h-[18rem] object-cover rounded-xl sm:aspect-square"
+                    className="absolute top-0 left-0 w-full h-full object-cover"
                   />
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4 flex-1">
                   <div className="mb-3">
                     <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                       MINECRAFT SMP | CMP

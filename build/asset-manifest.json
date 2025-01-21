@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9457cc93.css",
-    "main.js": "/static/js/main.03c609f9.js",
+    "main.css": "/static/css/main.c050ec11.css",
+    "main.js": "/static/js/main.d9936930.js",
     "static/js/488.cbb76c7a.chunk.js": "/static/js/488.cbb76c7a.chunk.js",
     "static/media/wallpaper.jpg": "/static/media/wallpaper.82dbefc3dae1a61ced36.jpg",
+    "static/media/BlackMirageStudio.png": "/static/media/BlackMirageStudio.79e872e9a7d817d01f15.png",
     "static/media/logo.png": "/static/media/logo.5a03edb509b926165bc6.png",
     "static/media/DePixelHalbfett.ttf": "/static/media/DePixelHalbfett.519749799470abd72e4e.ttf",
-    "static/media/partners.png": "/static/media/partners.903f9ddb1284a6fe50cf.png",
+    "static/media/Graffon.png": "/static/media/Graffon.a11741d5c465cfb6b138.png",
+    "static/media/Codechefs.png": "/static/media/Codechefs.46965e1a6ef5f1e98c3b.png",
+    "static/media/FriendlyGameDev.png": "/static/media/FriendlyGameDev.2dfe54f5a66d573d61bd.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.9457cc93.css.map": "/static/css/main.9457cc93.css.map",
-    "main.03c609f9.js.map": "/static/js/main.03c609f9.js.map",
+    "main.c050ec11.css.map": "/static/css/main.c050ec11.css.map",
+    "main.d9936930.js.map": "/static/js/main.d9936930.js.map",
     "488.cbb76c7a.chunk.js.map": "/static/js/488.cbb76c7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9457cc93.css",
-    "static/js/main.03c609f9.js"
+    "static/css/main.c050ec11.css",
+    "static/js/main.d9936930.js"
   ]
 }

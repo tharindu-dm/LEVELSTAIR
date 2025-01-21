@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import SocialCard from "../components/SocialCard.jsx";
 import TestimonialCard from "../components/TestimonialCard.jsx";
 import heroImage from "../assets/images/wallpaper.jpg";
-import partnersImage from "../assets/images/partners.png";
+
 import {
   FaLinkedin,
   FaFacebook,
@@ -13,6 +13,28 @@ import {
   FaReddit,
   FaItchIo,
 } from "react-icons/fa";
+
+const images = require.context(
+  "../assets/images/partners",
+  false,
+  /\.(png|jpe?g|svg)$/
+);
+
+const partners = [
+  { name: "Graffon", link: "https://graffon.lk/" },
+  {
+    name: "BlackMirageStudio",
+    link: "https://www.linkedin.com/company/black-mirage-studios/about/",
+  },
+  {
+    name: "Codechefs",
+    link: "https://www.linkedin.com/company/codechefs123/about/",
+  },
+  {
+    name: "FriendlyGameDev",
+    link: "https://www.linkedin.com/company/friendly-gamedev/",
+  },
+];
 
 const socialLinks = [
   {
@@ -123,7 +145,11 @@ const Home = () => {
             The Game Development Community
           </p>
         </div>
-        <img src={heroImage} alt="Hero" className="w-full h-[100vh] object-cover" />
+        <img
+          src={heroImage}
+          alt="Hero"
+          className="w-full h-[100vh] object-cover"
+        />
       </div>
 
       <hr className="border-4 border-[#D3B45F] w-full mb-12" />
@@ -133,11 +159,23 @@ const Home = () => {
         <h2 className="text-[#D3B45F] text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-[-0.015em] text-center">
           Our Partners
         </h2>
-        <img
-          src={partnersImage}
-          alt="Our Partners"
-          className="w-full max-w-[1200px] object-contain"
-        />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full px-4">
+          {partners.map((partner) => (
+            <a
+              key={partner.name}
+              href={partner.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center"
+            >
+              <img
+                src={images(`./${partner.name}.png`)}
+                alt={`${partner.name} logo`}
+                className="w-full max-h-60 object-contain rounded-md"
+              />
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* Social Links Section */}
