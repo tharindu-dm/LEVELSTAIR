@@ -14,7 +14,65 @@ const Events = () => {
               <h2 className="text-[#D3B45F] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
                 Upcoming Events
               </h2>
-              <div className="flex flex-col gap-4"></div>
+              <div className="flex flex-col gap-4 items-center">
+                {/* The common content cluster*/}
+                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
+                  <div>
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/a/a8/YouTube_Gold_Play_Button.png"
+                      alt="Level UP"
+                      className="w-full h-[16rem] object-cover rounded-xl sm:aspect-square"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <div className="mb-3">
+                      <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
+                        Esport Tournament
+                      </h3>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Date: xx/xx/2025
+                      </p>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Time:
+                      </p>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Venue: Some where on earth
+                      </p>
+                      <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
+                        Stay tuned for more information
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
+                  <div>
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/a/a8/YouTube_Gold_Play_Button.png"
+                      alt="Level UP"
+                      className="w-full h-[16rem] object-cover rounded-xl sm:aspect-square"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <div className="mb-3">
+                      <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
+                        E X E
+                      </h3>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Date: xx/xx/2025
+                      </p>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Time:
+                      </p>
+                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                        Venue: Some where on earth
+                      </p>
+                      <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
+                        Stay tuned for more information
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -23,7 +81,8 @@ const Events = () => {
               <h2 className="text-[#D3B45F] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
                 Ongoing Events
               </h2>
-              <div className="flex flex-col gap-4 items-center">
+              <div className="flex flex-col gap-4 items-center">{/* The common content cluster*/}
+                <p className="text-white">nothing here yet</p>
               </div>
             </div>
           </div>
@@ -34,6 +93,8 @@ const Events = () => {
                 Past Events
               </h2>
               <div className="flex flex-col gap-4 items-center">
+                {" "}
+                {/* The common content cluster*/}
                 <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
                   <div>
                     <img
