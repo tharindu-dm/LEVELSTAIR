@@ -8,7 +8,7 @@ const Contact = () => {
           <h1 className="text-[#FFFFFF] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px] mb-9">
             Contact Us
           </h1>
-          <p className="text-[#D3B45F] text-base font-normal leading-normal max-w-[720px]">
+          <p className="text-[#ffd700] text-base font-normal leading-normal max-w-[720px]">
             We are always here to help you. If you have any questions or need
             assistance, please feel free to contact us.
           </p>
@@ -18,7 +18,7 @@ const Contact = () => {
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="name"
-                className="text-[#D3B45F] text-sm font-normal leading-normal"
+                className="text-[#ffd700] text-sm font-normal leading-normal"
               >
                 Name
               </label>
@@ -32,7 +32,7 @@ const Contact = () => {
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="email"
-                className="text-[#D3B45F] text-sm font-normal leading-normal"
+                className="text-[#ffd700] text-sm font-normal leading-normal"
               >
                 Email
               </label>
@@ -46,7 +46,7 @@ const Contact = () => {
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="message"
-                className="text-[#D3B45F] text-sm font-normal leading-normal"
+                className="text-[#ffd700] text-sm font-normal leading-normal"
               >
                 Message
               </label>
@@ -56,14 +56,14 @@ const Contact = () => {
                 className="text-[#FFFFFF] text-base font-normal leading-normal bg-[#1A1A1A] border border-[#30270D] rounded-[8px] py-2 px-4"
               ></textarea>
             </div>
-            <button className="bg-[#D3B45F] text-[#090909] text-base font-normal leading-normal rounded-[8px] py-2 px-4">
+            <button className="bg-[#ffd700] text-[#090909] text-base font-normal leading-normal rounded-[8px] py-2 px-4">
               Send
             </button>
           </div>
 
           {/* Email Contact Option */}
           <div className="flex flex-col gap-4 mt-8">
-            <p className="text-[#D3B45F] text-base font-normal leading-normal">
+            <p className="text-[#ffd700] text-base font-normal leading-normal">
               Alternatively, you can reach us directly via email at:
             </p>
             <a
@@ -75,7 +75,7 @@ const Contact = () => {
           </div>
         </div>
       </main>
-      <hr className="border-4 border-[#D3B45F] w-full" />
+      <hr className="border-4 border-[#ffd700] w-full" />
     </div>
   );
 };

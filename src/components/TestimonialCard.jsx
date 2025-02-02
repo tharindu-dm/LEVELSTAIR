@@ -9,7 +9,7 @@ const TestimonialCard = ({ content, author, role }) => {
       </p>
       <div className="flex items-center">
         <div>
-          <p className="text-[#D3B45F] font-semibold text-base md:text-lg lg:text-xl">
+          <p className="text-[#ffd700] font-semibold text-base md:text-lg lg:text-xl">
             ~ {author}
           </p>
           <p className="text-[#A0A0A0] text-xs md:text-xs lg:text-base">

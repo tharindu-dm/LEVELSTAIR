@@ -11,7 +11,7 @@ const Events = () => {
 
           <div className="flex flex-col gap-10 w-full">
             <div className="flex flex-col gap-4">
-              <h2 className="text-[#D3B45F] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
+              <h2 className="text-[#ffd700] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
                 Upcoming Events
               </h2>
               <div className="flex flex-col gap-4 items-center">
@@ -29,13 +29,13 @@ const Events = () => {
                       <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                         Esport Tournament
                       </h3>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Date: xx/xx/2025
                       </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Time:
                       </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Venue: Some where on earth
                       </p>
                       <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
@@ -57,13 +57,13 @@ const Events = () => {
                       <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                         E X E
                       </h3>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Date: xx/xx/2025
                       </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Time:
                       </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Venue: Some where on earth
                       </p>
                       <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
@@ -78,7 +78,7 @@ const Events = () => {
 
           <div className="flex flex-col gap-10 w-full">
             <div className="flex flex-col gap-4">
-              <h2 className="text-[#D3B45F] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
+              <h2 className="text-[#ffd700] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
                 Ongoing Events
               </h2>
               <div className="flex flex-col gap-4 items-center">{/* The common content cluster*/}
@@ -89,7 +89,7 @@ const Events = () => {
 
           <div className="flex flex-col gap-10 w-full">
             <div className="flex flex-col gap-4">
-              <h2 className="text-[#D3B45F] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
+              <h2 className="text-[#ffd700] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
                 Past Events
               </h2>
               <div className="flex flex-col gap-4 items-center">
@@ -108,13 +108,13 @@ const Events = () => {
                       <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                         Level UP: The First Physical Meetup
                       </h3>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Date: 28/12/2024
                       </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Time: 10 : 00 +5.30 GMT/UTC
                       </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Venue: Colombo, Sri Lanka
                       </p>
                       <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
@@ -136,10 +136,10 @@ const Events = () => {
                       <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                         Level Zero Awareness Session
                       </h3>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Date: 17/10/2024
                       </p>
-                      <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                      <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                         Time: 15 : 00 GMT+5.30
                       </p>
                       <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
@@ -149,9 +149,9 @@ const Events = () => {
                     </div>
                     <a
                       href="https://youtu.be/e2140VX9fi8"
-                      className="text-[#D3B45F] text-[14px] font-normal leading-normal"
+                      className="text-[#ffd700] text-[14px] font-normal leading-normal"
                     >
-                      <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
+                      <button className="bg-[#ffd700] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
                         Visit Page
                       </button>
                     </a>
@@ -163,7 +163,7 @@ const Events = () => {
         </div>
       </main>
 
-      <hr className="border-4 border-[#D3B45F] w-full" />
+      <hr className="border-4 border-[#ffd700] w-full" />
     </div>
   );
 };

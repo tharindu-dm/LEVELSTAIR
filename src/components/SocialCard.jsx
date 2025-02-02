@@ -8,10 +8,17 @@ const SocialCard = ({ name, followers, iconBg, link, buttonText, icon }) => {
       >
         <IconComponent size={30} />
       </div>
-      <h3 className="text-[#FFFFFF] text-sm md:text-base lg:text-lg font-semibold rounded-xl">{name}</h3>
-      {followers && <h4 className="text-[#FFFFFF] text-xs md:text-sm lg:text-base font-normal rounded-xl">{followers}</h4>}
+      <h3 className="text-[#FFFFFF] text-sm md:text-base lg:text-lg font-semibold rounded-xl">
+        {name}
+      </h3>
+      {followers && (
+        <h4 className="text-[#FFFFFF] text-xs md:text-sm lg:text-base font-normal rounded-xl">
+          {followers}
+        </h4>
+      )}
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <button className="p-2 sm:p-3 bg-[#D3B45F] text-[#FFFFFF] hover:text-[#000000] rounded-xl text-xs sm:text-sm md:text-base">
+        <button className="p-2 sm:p-3 bg-[#ffd700] text-[#000000] hover:text-[#ffd700] rounded-xl text-xs sm:text-sm md:text-base lg:min-w-[10rem] "
+        style={{ backgroundColor: iconBg }}>
           {buttonText}
         </button>
       </a>

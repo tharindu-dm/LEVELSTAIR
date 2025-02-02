@@ -7,6 +7,8 @@ import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import Events from "./pages/Events";
 import Projects from "./pages/Projects";
+import ExeEvent from "./pages/ExeEvent";
+//import PixelElevatorScrollbar from './components/scroll';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -19,11 +21,13 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/exe" element={<ExeEvent />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/events" element={<Events />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </main>
+        {/*<PixelElevatorScrollbar />*/}
         <Footer />
       </div>
     </Router>

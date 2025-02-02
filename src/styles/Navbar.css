@@ -37,6 +37,10 @@
   padding: 0.5rem 1rem;
 }
 
+.nav-links a:hover {
+  color: #ffd700;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;

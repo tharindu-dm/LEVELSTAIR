@@ -24,7 +24,7 @@ const Projects = () => {
                     <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                       Level Zero Game Jam
                     </h3>
-                    <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                    <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                       Frequency: Once Per Month | Weekend
                     </p>
                     <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
@@ -34,9 +34,9 @@ const Projects = () => {
                   </div>
                   <a
                     href="https://itch.io/jam/level-zero-3"
-                    className="text-[#D3B45F] text-[14px] font-normal leading-normal"
+                    className="text-[#ffd700] text-[14px] font-normal leading-normal"
                   >
-                    <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
+                    <button className="bg-[#ffd700] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
                       Jam Page
                     </button>
                   </a>
@@ -56,28 +56,28 @@ const Projects = () => {
                     <h3 className="text-[#FFFFFF] text-[18px] font-bold leading-tight mb-3 sm:text-lg">
                       MINECRAFT SMP | CMP
                     </h3>
-                    <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                    <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                       SMP - Survival Multiplayer
                     </p>
-                    <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                    <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                       CMP - Creative Multiplayer
                     </p>
                     <br />
                     <p className="text-[#a0a0a0] text-[14px] font-normal leading-normal mb-1 sm:text-sm">
                       server details:
                     </p>
-                    <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                    <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                       LEVELSTAIR_SMP.aternos.me:33952
                     </p>
-                    <p className="text-[#D3B45F] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
+                    <p className="text-[#ffd700] text-[14px] font-normal leading-normal mb-3 sm:text-sm">
                       LEVELSTAIR_CMP.aternos.me:47035
                     </p>
                   </div>
                   <a
                     href="https://discord.gg/xauShxdx6u"
-                    className="text-[#D3B45F] text-[14px] font-normal leading-normal"
+                    className="text-[#ffd700] text-[14px] font-normal leading-normal"
                   >
-                    <button className="bg-[#D3B45F] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
+                    <button className="bg-[#ffd700] text-[#ffffff] p-3 rounded-xl w-full sm:w-auto">
                       Join Discord
                     </button>
                   </a>
@@ -88,7 +88,7 @@ const Projects = () => {
         </div>
       </main>
 
-      <hr className="border-4 border-[#D3B45F] w-full" />
+      <hr className="border-4 border-[#ffd700] w-full" />
     </div>
   );
 };

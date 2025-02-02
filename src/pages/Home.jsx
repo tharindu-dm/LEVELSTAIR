@@ -42,35 +42,35 @@ const socialLinks = [
     icon: FaLinkedin,
     iconBg: "#0077B5",
     link: "https://www.linkedin.com/company/levelstair/",
-    buttonText: "FOLLOW NOW",
+    buttonText: "FOLLOW",
   },
   {
     name: "YouTube",
     icon: FaYoutube,
     iconBg: "#FF0000",
     link: "https://www.youtube.com/@LEVELSTAIROfficial",
-    buttonText: "JOIN NOW",
+    buttonText: "SUBSCRIBE",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
     iconBg: "#1877F2",
     link: "https://www.facebook.com/LEVELSTAIR/",
-    buttonText: "FOLLOW NOW",
+    buttonText: "FOLLOW",
   },
   {
     name: "Instagram",
     icon: FaInstagram,
     iconBg: "#d34297",
     link: "https://www.instagram.com/levelstair_official/",
-    buttonText: "JOIN NOW",
+    buttonText: "Follow",
   },
   {
     name: "Discord Server",
     icon: FaDiscord,
     iconBg: "#5865F2",
     link: "https://discord.gg/xauShxdx6u",
-    buttonText: "FOLLOW NOW",
+    buttonText: "JOIN NOW",
   },
   {
     name: "Subreddit",
@@ -84,7 +84,7 @@ const socialLinks = [
     icon: FaItchIo,
     iconBg: "#ff6160",
     link: "https://levelstair.itch.io/",
-    buttonText: "FOLLOW NOW",
+    buttonText: "FOLLOW",
   },
 ];
 
@@ -138,10 +138,10 @@ const Home = () => {
       <div className="relative">
         <div className="absolute inset-0 bg-black opacity-85 z-10"></div>
         <div className="absolute inset-0 z-20 flex flex-col items-center justify-center px-4">
-          <h1 className="text-[#D3B45F] text-2xl md:text-3xl lg:text-6xl font-bold leading-tight tracking-[-0.015em] text-center">
+          <h1 className="text-[#ffd700] text-2xl md:text-3xl lg:text-6xl font-bold leading-tight tracking-[-0.015em] text-center">
             WELCOME TO LEVELSTAIR
           </h1>
-          <p className="text-[#D3B45F] text-lg md:text-xl lg:text-2xl font-normal leading-normal mt-4 text-center">
+          <p className="text-[#ffd700] text-lg md:text-xl lg:text-2xl font-normal leading-normal mt-4 text-center">
             The Game Development Community
           </p>
         </div>
@@ -152,11 +152,11 @@ const Home = () => {
         />
       </div>
 
-      <hr className="border-4 border-[#D3B45F] w-full mb-12" />
+      <hr className="border-4 border-[#ffd700] w-full mb-12" />
 
       {/* Our Partners Section */}
       <div className="flex flex-col items-center justify-center gap-12 py-16">
-        <h2 className="text-[#D3B45F] text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-[-0.015em] text-center">
+        <h2 className="text-[#ffd700] text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-[-0.015em] text-center">
           Our Partners
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full px-4">
@@ -180,7 +180,7 @@ const Home = () => {
 
       {/* Social Links Section */}
       <div className="flex flex-col items-center justify-center gap-12 py-16">
-        <h2 className="text-[#D3B45F] text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-[-0.015em] text-center">
+        <h2 className="text-[#ffd700] text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-[-0.015em] text-center">
           Our Digital Footprint
         </h2>
         <div className="flex flex-wrap justify-center gap-5 w-full px-4">
@@ -197,7 +197,7 @@ const Home = () => {
       {/* Testimonials Section with Carousel */}
       <div className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-[#D3B45F] text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-[-0.015em] text-center mb-12">
+          <h2 className="text-[#ffd700] text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-[-0.015em] text-center mb-12">
             Testimonials
           </h2>
           <Slider {...settings}>
@@ -210,7 +210,7 @@ const Home = () => {
         </div>
       </div>
 
-      <hr className="border-4 border-[#D3B45F] w-full" />
+      <hr className="border-4 border-[#ffd700] w-full" />
     </div>
   );
 };

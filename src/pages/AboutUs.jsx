@@ -4,14 +4,13 @@ const AboutUs = () => {
   return (
     <div>
       <main className="flex flex-col gap-10 px-14 py-10 items-center">
-        <h1 className="text-[#FFFFFF] tracking-light text-[32px] font-bold leading-tight mb-9">
+        <h1 className="text-[#ffd700] tracking-light text-[40px] font-bold leading-tight mb-10">
           About &nbsp; Us
         </h1>
-
         <div className="flex flex-col gap-24 px-4 md:px-8 lg:px-16">
           {/* History Section */}
           <div className="flex flex-col justify-center items-center">
-            <h3 className="text-[#D3B45F] font-bold mb-2 text-sm md:text-base lg:text-xl">
+            <h3 className="text-[#ffd700] font-bold mb-2 text-sm md:text-base lg:text-xl">
               History
             </h3>
             <p className="text-[#FFFFFF] text-center text-xs md:text-base lg:text-lg max-w-3xl">
@@ -27,7 +26,7 @@ const AboutUs = () => {
 
           {/* Mission Section */}
           <div className="flex flex-col justify-center items-center">
-            <h3 className="text-[#D3B45F] font-bold mb-4 text-sm md:text-base lg:text-xl">
+            <h3 className="text-[#ffd700] font-bold mb-4 text-sm md:text-base lg:text-xl">
               Mission
             </h3>
             <p className="text-[#FFFFFF] text-center text-xs md:text-base lg:text-lg max-w-3xl">
@@ -39,7 +38,7 @@ const AboutUs = () => {
 
           {/* Vision Section */}
           <div className="flex flex-col justify-center items-center">
-            <h3 className="text-[#D3B45F] font-bold mb-4 text-sm md:text-base lg:text-xl">
+            <h3 className="text-[#ffd700] font-bold mb-4 text-sm md:text-base lg:text-xl">
               Vision
             </h3>
             <p className="text-[#FFFFFF] text-center text-xs md:text-base lg:text-lg max-w-3xl">
@@ -51,7 +50,7 @@ const AboutUs = () => {
 
           {/* Values Section */}
           <div className="flex flex-col justify-center items-center">
-            <h3 className="text-[#D3B45F] font-bold mb-4 text-sm md:text-base lg:text-xl">
+            <h3 className="text-[#ffd700] font-bold mb-4 text-sm md:text-base lg:text-xl">
               Values
             </h3>
             <div className="flex flex-wrap gap-4 justify-center text-xs md:text-base lg:text-lg">
@@ -64,7 +63,7 @@ const AboutUs = () => {
           </div>
         </div>
       </main>
-      <hr className="border-4 border-[#D3B45F] w-full" />
+      <hr className="border-4 border-[#ffd700] w-full" />
     </div>
   );
 };
