@@ -75,7 +75,7 @@ const socialLinks = [
   {
     name: "Subreddit",
     icon: FaReddit,
-    iconBg: "#ff6160",
+    iconBg: "#f4400a",
     link: "https://www.reddit.com/r/LEVELSTAIR/",
     buttonText: "JOIN NOW",
   },

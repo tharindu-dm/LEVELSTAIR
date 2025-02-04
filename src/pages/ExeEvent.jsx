@@ -67,8 +67,12 @@ const ExeEvent = () => {
     },
   ];
 
-  const handleJoinClick = () => {
+  const handleRegisterClick = () => {
     window.open("#", "_blank"); // Add the link to the registration page
+  };
+
+  const handleDiscordClick = () => {
+    window.open("https://discord.gg/xauShxdx6u", "_blank"); // Add the link to the registration page
   };
 
   return (
@@ -179,14 +183,21 @@ const ExeEvent = () => {
             </h3>
             <ul className="text-white text-xs md:text-base lg:text-lg list-disc pl-6">
               <li>
-                University Category: Students from any faculty/school of any Sri
-                Lankan university
+                <p className="text-purple-500 mt-10 list-item">
+                  University Category
+                </p>
+                Students from any faculty/school of any Sri Lankan university
               </li>
               <li>
-                School Category: Students from any national/international school
-                in Sri Lanka
+                <p className="text-purple-500 mt-10 list-item">
+                  {" "}
+                  School Category
+                </p>
+                Students from any national/international school in Sri Lanka
               </li>
-              <li>BONUS: NO AGE/GRADE LIMITS</li>
+              <h3 className="mt-8 text-center text-blue-400">
+                BONUS: NO AGE/GRADE LIMITS
+              </h3>
             </ul>
           </section>
 
@@ -207,7 +218,7 @@ const ExeEvent = () => {
             </h3>
             <div className="text-white text-xs md:text-base lg:text-lg">
               <div className="mb-6">
-                <h4 className="font-bold mb-2">Winners</h4>
+                <h4 className="font-bold mb-2 text-purple-500">Winners</h4>
                 <ul className="list-disc pl-6">
                   <li>
                     Free Consultation on Game Monetization and Game Design
@@ -221,7 +232,7 @@ const ExeEvent = () => {
               </div>
 
               <div className="mb-6">
-                <h4 className="font-bold mb-2">
+                <h4 className="font-bold mb-2 text-purple-500">
                   Runner-ups | Honorable Mentions
                 </h4>
                 <ul className="list-disc pl-6">
@@ -231,7 +242,9 @@ const ExeEvent = () => {
               </div>
 
               <div>
-                <h4 className="font-bold mb-2">All Participants</h4>
+                <h4 className="font-bold mb-2 text-purple-500">
+                  All Participants
+                </h4>
                 <ul className="list-disc pl-6">
                   <li>
                     Game showcase in the EXE:Gameplays compilation video shared
@@ -254,16 +267,30 @@ const ExeEvent = () => {
           </section>
 
           {/* Join Us Section */}
-          <section className="flex flex-col justify-center items-center bg-zinc-900 rounded-lg p-8">
-            <h3 className="text-[#ffd700] font-bold mb-4 text-base md:text-lg lg:text-2xl">
-              Join With Us
-            </h3>
-            <button
-              onClick={handleJoinClick}
-              className="bg-[#ffd700] text-black font-bold py-3 px-6 rounded-lg hover:bg-[#ffed4a] transition-colors duration-200"
-            >
-              Register Now
-            </button>
+          <section className="flex justify-center items-center bg-zinc-900 rounded-lg p-8">
+            <div className="flex flex-col justify-center items-center bg-zinc-900 rounded-lg p-8">
+              <h3 className="text-[#5d6aef] font-bold mb-4 text-base md:text-lg lg:text-2xl">
+                Join Discord
+              </h3>
+              <button
+                onClick={handleDiscordClick}
+                className="bg-[#5d6aef] text-black font-bold py-3 px-6 rounded-lg hover:bg-[#8f97ed] transition-colors duration-200"
+              >
+                Join Now
+              </button>
+            </div>
+
+            <div className="flex flex-col justify-center items-center bg-zinc-900 rounded-lg p-8">
+              <h3 className="text-[#ffd700] font-bold mb-4 text-base md:text-lg lg:text-2xl">
+                Register EXE
+              </h3>
+              <button
+                onClick={handleRegisterClick}
+                className="bg-[#ffd700] text-black font-bold py-3 px-6 rounded-lg hover:bg-[#ffed4a] transition-colors duration-200"
+              >
+                Register Now
+              </button>
+            </div>
           </section>
         </div>
       </main>
