@@ -9,6 +9,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.1",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
@@ -19,8 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "node deploy"
+    "predeploy": "npm run generate-sitemap && npm run build",
+    "deploy": "node deploy",
+    "generate-sitemap": "node src/sitemap-generator.js"
   },
   "eslintConfig": {
     "extends": [

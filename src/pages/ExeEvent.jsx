@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const images = require.context(
   "../assets/images/EXEpartners",
@@ -77,6 +78,38 @@ const ExeEvent = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>EXE - The Flagship Game Dev Event Of Sri Lanka</title>
+        <meta
+          name="description"
+          content="Join Levelstair, the leading game development community in Sri Lanka. Connect with local talent, participate in game jams, and elevate your game development skills."
+        />
+        <meta
+          name="keywords"
+          content="game development Sri Lanka, game dev community, Levelstair, Sri Lankan indie game developers, Sri Lankan Unity Developers, Sri Lankan GoDot Developers, Sri Lankan Unreal Developers, Sri Lanka Game Jams, EXE"
+        />
+        <meta
+          property="og:title"
+          content="EXE - The Flagship Game Dev Event Of Sri Lanka"
+        />
+        <meta
+          property="og:description"
+          content="Connect with the top game developers in Sri Lanka. Join Levelstair and be part of an innovative game development community."
+        />
+        <meta
+          property="og:image"
+          content="https://www.levelstair.com/assets/images/ShareImage.png"
+        />
+        <meta property="og:url" content="https://www.levelstair.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://www.levelstair.com/assets/images/ShareImage.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </Helmet>
+
       <main className="flex flex-col gap-10 px-14 py-10 items-center">
         <h1 className="text-[#ffd700] tracking-light text-[40px] font-bold leading-tight">
           E&nbsp;X&nbsp;E

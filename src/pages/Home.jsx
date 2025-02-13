@@ -143,7 +143,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="game development Sri Lanka, game dev community, Levelstair, Sri Lankan indie game developers"
+          content="game development Sri Lanka, game dev community, Levelstair, Sri Lankan indie game developers, Sri Lankan Unity Developers, Sri Lankan GoDot Developers, Sri Lankan Unreal Developers, Sri Lanka Game Jams"
         />
         <meta
           property="og:title"
@@ -153,9 +153,18 @@ const Home = () => {
           property="og:description"
           content="Connect with the top game developers in Sri Lanka. Join Levelstair and be part of an innovative game development community."
         />
-        <meta property="og:image" content="../assets/images/ShareImage.png" />
+        <meta
+          property="og:image"
+          content="https://www.levelstair.com/assets/images/ShareImage.png"
+        />
         <meta property="og:url" content="https://www.levelstair.com" />
-        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://www.levelstair.com/assets/images/ShareImage.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </Helmet>
 
       {/* Hero Section */}

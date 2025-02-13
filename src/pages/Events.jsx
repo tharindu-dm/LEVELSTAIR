@@ -1,8 +1,41 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Events = () => {
   return (
     <div>
+      <Helmet>
+        <title>Our Event At Levelstair</title>
+        <meta
+          name="description"
+          content="Join Levelstair, the leading game development community in Sri Lanka. Connect with local talent, participate in game jams, and elevate your game development skills."
+        />
+        <meta
+          name="keywords"
+          content="game development Sri Lanka, game dev community, Levelstair, Sri Lankan indie game developers, Sri Lankan Unity Developers, Sri Lankan GoDot Developers, Sri Lankan Unreal Developers, Sri Lanka Game Jams"
+        />
+        <meta
+          property="og:title"
+          content="Our Event At Levelstair"
+        />
+        <meta
+          property="og:description"
+          content="Connect with the top game developers in Sri Lanka. Join Levelstair and be part of an innovative game development community."
+        />
+        <meta
+          property="og:image"
+          content="https://www.levelstair.com/assets/images/ShareImage.png"
+        />
+        <meta property="og:url" content="https://www.levelstair.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://www.levelstair.com/assets/images/ShareImage.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </Helmet>
+
       <main className="min-h-screen">
         <div className="flex flex-col gap-10 px-4 py-10 container mx-auto">
           <h1 className="text-[#FFFFFF] tracking-light self-center text-[32px] font-bold leading-tight max-w-[720px] mb-9 text-center sm:text-4xl sm:font-black sm:leading-tight sm:tracking-[-0.033em]">
@@ -81,7 +114,8 @@ const Events = () => {
               <h2 className="text-[#ffd700] text-center text-[24px] font-bold leading-tight mb-4 sm:text-2xl">
                 Ongoing Events
               </h2>
-              <div className="flex flex-col gap-4 items-center">{/* The common content cluster*/}
+              <div className="flex flex-col gap-4 items-center">
+                {/* The common content cluster*/}
                 <p className="text-white">nothing here yet</p>
               </div>
             </div>
