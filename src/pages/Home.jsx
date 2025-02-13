@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import SocialCard from "../components/SocialCard.jsx";
 import TestimonialCard from "../components/TestimonialCard.jsx";
 import heroImage from "../assets/images/wallpaper.jpg";
+import { Helmet } from "react-helmet";
 
 import {
   FaLinkedin,
@@ -134,6 +135,29 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Levelstair - Game Development Community in Sri Lanka</title>
+        <meta
+          name="description"
+          content="Join Levelstair, the leading game development community in Sri Lanka. Connect with local talent, participate in game jams, and elevate your game development skills."
+        />
+        <meta
+          name="keywords"
+          content="game development Sri Lanka, game dev community, Levelstair, Sri Lankan indie game developers"
+        />
+        <meta
+          property="og:title"
+          content="Levelstair - Game Development Community in Sri Lanka"
+        />
+        <meta
+          property="og:description"
+          content="Connect with the top game developers in Sri Lanka. Join Levelstair and be part of an innovative game development community."
+        />
+        <meta property="og:image" content="../assets/images/ShareImage.png" />
+        <meta property="og:url" content="https://www.levelstair.com" />
+        
+      </Helmet>
+
       {/* Hero Section */}
       <div className="relative">
         <div className="absolute inset-0 bg-black opacity-85 z-10"></div>

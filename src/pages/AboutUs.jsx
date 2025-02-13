@@ -14,13 +14,18 @@ const AboutUs = () => {
               History
             </h3>
             <p className="text-[#FFFFFF] text-center text-xs md:text-base lg:text-lg max-w-3xl">
-              Founded in August 2024, LEVELSTAIR emerged as a supportive hub for
-              aspiring game developers across Sri Lanka. Rooted in a shared
-              passion for gaming and creation, our community is committed to
-              fostering a thriving ecosystem for indie game development. With a
-              focus on education, networking, and collaboration, we aim to equip
-              developers with the tools and knowledge needed to bring their game
-              ideas to life.
+              Founded in August 2024, LEVELSTAIR has rapidly grown into Sri
+              Lanka's premier hub for game development, attracting over 100
+              passionate creators within months of launch. Our journey has been
+              marked by successful partnerships with strong startups and brands like
+              Graffon, Codechefs, and Black Mirage Studio, regular game jams that foster
+              creativity, and engaging physical meetups that bring our community
+              together. 
+              <div className="mt-10"/>
+              From our first virtual meetup to our monthly Level Zero
+              game jams and the landmark Level Up event, we've consistently
+              provided platforms for learning, collaboration, and growth in game
+              development.
             </p>
           </div>
 
@@ -48,17 +53,87 @@ const AboutUs = () => {
             </p>
           </div>
 
+          {/* Community Impact Section - New Addition 
+          <div className="flex flex-col justify-center items-center">
+            <h3 className="text-[#ffd700] font-bold mb-4 text-sm md:text-base lg:text-xl">
+              Community Impact
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base italic">
+                  "I always used to think there are not many game developers in Sri Lanka, and then I found the Levelstair community. This industry can be Sri Lanka's future and this community is just a start of it."
+                </p>
+                <p className="text-[#ffd700] text-right mt-2 text-xs md:text-sm">- Kavindu Nethsara</p>
+              </div>
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base italic">
+                  "Levelstair is a welcoming community where any person interested in the field of game development can find a safe space to discuss their projects and ask for assistance."
+                </p>
+                <p className="text-[#ffd700] text-right mt-2 text-xs md:text-sm">- Pahan Amarasekara</p>
+              </div>
+            </div>
+          </div>*/}
+
+          {/* Activities Section */}
+          <div className="flex flex-col justify-center items-center">
+            <h3 className="text-[#ffd700] font-bold mb-4 text-sm md:text-base lg:text-xl">
+              Our Activities
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center max-w-3xl">
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Monthly Game Jams
+                </p>
+              </div>
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Physical Meetups
+                </p>
+              </div>
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  D&D Sessions
+                </p>
+              </div>
+              {/*<div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Esports Events
+                </p>
+              </div>*/}
+            </div>
+          </div>
+
           {/* Values Section */}
           <div className="flex flex-col justify-center items-center">
             <h3 className="text-[#ffd700] font-bold mb-4 text-sm md:text-base lg:text-xl">
               Values
             </h3>
-            <div className="flex flex-wrap gap-4 justify-center text-xs md:text-base lg:text-lg">
-              <p className="text-[#FFFFFF]">Education</p>
-              <p className="text-[#FFFFFF]">Innovation</p>
-              <p className="text-[#FFFFFF]">Achievement</p>
-              <p className="text-[#FFFFFF]">Collaboration</p>
-              <p className="text-[#FFFFFF]">Enjoyment</p>
+            <div className="grid grid-cols-3 md:grid-cols-5 gap-4 text-center">
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Education
+                </p>
+              </div>
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Innovation
+                </p>
+              </div>
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Achievement
+                </p>
+              </div>
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Collaboration
+                </p>
+              </div>
+              <div className="bg-gray-800 p-4 rounded-lg">
+                <p className="text-[#FFFFFF] text-xs md:text-sm lg:text-base">
+                  Enjoyment
+                </p>
+              </div>
             </div>
           </div>
         </div>
