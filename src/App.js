@@ -14,6 +14,24 @@ import "slick-carousel/slick/slick-theme.css";
 import { Helmet } from "react-helmet";
 
 const App = () => {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Levelstair",
+    description: "Game Development Community in Sri Lanka",
+    url: "https://www.levelstair.com",
+    logo: "https://www.levelstair.com/assets/images/logo.png",
+    sameAs: [
+      "https://www.facebook.com/LEVELSTAIR/",
+      "https://www.linkedin.com/company/levelstair",
+      "https://www.instagram.com/levelstair_official/",
+      "https://www.youtube.com/@LEVELSTAIROfficial",
+      "https://www.reddit.com/r/LEVELSTAIR/",
+      "https://levelstair.itch.io/",
+      "https://discord.gg/xauShxdx6u",
+    ],
+  };
+
   return (
     <>
       <Helmet>
@@ -52,15 +70,10 @@ const App = () => {
         <link rel="canonical" href="https://www.levelstair.com" />
 
         {/* Schema markup */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "Levelstair",
-            description: "Game Development Community in Sri Lanka",
-            url: "https://www.levelstair.com",
-          })}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
       </Helmet>
 
       <Router>
