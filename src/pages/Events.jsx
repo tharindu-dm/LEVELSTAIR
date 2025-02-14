@@ -49,7 +49,7 @@ const Events = () => {
               </h2>
               <div className="flex flex-col gap-4 items-center">
                 {/* The common content cluster*/}
-                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
+                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-[70vw] rounded-xl">
                   <div>
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/a/a8/YouTube_Gold_Play_Button.png"
@@ -77,7 +77,7 @@ const Events = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
+                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-[70vw] rounded-xl">
                   <div>
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/a/a8/YouTube_Gold_Play_Button.png"
@@ -127,9 +127,8 @@ const Events = () => {
                 Past Events
               </h2>
               <div className="flex flex-col gap-4 items-center">
-                {" "}
                 {/* The common content cluster*/}
-                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
+                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-[70vw] rounded-xl">
                   <div>
                     <img
                       src="https://yt3.ggpht.com/wvcJGyC5ZPkEEz8kaDT74twGLRsmrTrtQRL_W3V_6bG6GlV4ER8N6PaB1-H-nzS8HBkSHMIoWv5fgCQ=s640-c-fcrop64=1,00000000ffffffff-rw-nd-v1"
@@ -157,10 +156,10 @@ const Events = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-full sm:w-[45rem] rounded-xl">
+                <div className="flex flex-col sm:flex-row gap-5 bg-[#303030] p-4 w-[70vw] rounded-xl">
                   <div>
                     <img
-                      src="https://yt3.ggpht.com/T0d-oZNztpsbN_01xRCo088VlFimx3jyz4eHiionb78Tj6a-7W7QSOOSJkSLQy9LQZIuaQ44_P5j=s640-c-fcrop64=1,00000000ffffffff-rw-nd-v1"
+                      src="https://img.itch.zone/aW1nLzE3ODY2MDM5LmpwZWc=/original/HOf0OJ.jpeg"
                       alt="Level Zero"
                       className="w-full h-[16rem] object-cover rounded-xl sm:aspect-square"
                     />
