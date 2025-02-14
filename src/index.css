@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "DePixelHalbfett";
-  src: url("assets/fonts/DePixelHalbfett.ttf") format("truetype");
+  font-family: "vhs-gothic";
+  src: url("assets/fonts/vhs-gothic.ttf") format("truetype");
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
@@ -15,7 +15,9 @@
 }
 
 body {
-  font-family: "DePixelHalbfett", "Roboto", sans-serif;
+  font-family: "vhs-gothic", "Roboto", sans-serif;
+  cursor: url("assets/images/cursor.cur"), auto;
+
   line-height: 1.6;
   background-color: #000000;
   background-size: cover;
@@ -41,7 +43,6 @@ body {
 }
 
 /** SCROLL STYLES **/
-/* Create this as a new file: styles/scrollbar.css */
 
 /* For Webkit browsers (Chrome, Safari, Edge) */
 ::-webkit-scrollbar {
@@ -55,8 +56,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: 
-    linear-gradient(45deg, #000 25%, transparent 25%),
+  background: linear-gradient(45deg, #000 25%, transparent 25%),
     linear-gradient(-45deg, #000 25%, transparent 25%),
     linear-gradient(45deg, transparent 75%, #000 75%),
     linear-gradient(-45deg, transparent 75%, #000 75%);
@@ -81,8 +81,20 @@ body {
 /* Up button */
 ::-webkit-scrollbar-button:single-button:vertical:decrement {
   border-width: 0 2px 2px 2px;
-  background-image: linear-gradient(45deg, transparent 30%, #ffd700 30%, #ffd700 70%, transparent 70%),
-                    linear-gradient(-45deg, transparent 30%, #ffd700 30%, #ffd700 70%, transparent 70%);
+  background-image: linear-gradient(
+      45deg,
+      transparent 30%,
+      #ffd700 30%,
+      #ffd700 70%,
+      transparent 70%
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 30%,
+      #ffd700 30%,
+      #ffd700 70%,
+      transparent 70%
+    );
   background-size: 8px 2px;
   background-position: center 10px;
   background-repeat: no-repeat;
@@ -91,8 +103,20 @@ body {
 /* Down button */
 ::-webkit-scrollbar-button:single-button:vertical:increment {
   border-width: 2px 2px 0 2px;
-  background-image: linear-gradient(45deg, transparent 30%, #ffd700 30%, #ffd700 70%, transparent 70%),
-                    linear-gradient(-45deg, transparent 30%, #ffd700 30%, #ffd700 70%, transparent 70%);
+  background-image: linear-gradient(
+      45deg,
+      transparent 30%,
+      #ffd700 30%,
+      #ffd700 70%,
+      transparent 70%
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 30%,
+      #ffd700 30%,
+      #ffd700 70%,
+      transparent 70%
+    );
   background-size: 8px 2px;
   background-position: center 6px;
   background-repeat: no-repeat;

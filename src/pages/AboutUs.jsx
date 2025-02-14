@@ -38,7 +38,7 @@ const AboutUs = () => {
 
       <main className="flex flex-col gap-10 px-14 py-10 items-center">
         <h1 className="text-[#ffd700] tracking-light text-[40px] font-bold leading-tight mb-10">
-          About &nbsp; Us
+          About&nbsp;Us
         </h1>
         <div className="flex flex-col gap-24 px-4 md:px-8 lg:px-16">
           {/* History Section */}

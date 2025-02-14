@@ -39,6 +39,11 @@
 
 .nav-links a:hover {
   color: #ffd700;
+  /*animate an underline left to right onhover*/
+  background-size: 100% 0.2rem;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, #ffd700, #ffd700);
+  transition: background-size 0.5s ease 0s;
 }
 
 .hamburger {
@@ -46,7 +51,6 @@
   flex-direction: column;
   background: none;
   border: none;
-  cursor: pointer;
   padding: 0;
 }
 
